@@ -1,0 +1,40 @@
+{
+    "type": "SERVICE_REQUEST",
+    "priority": "HIGH",
+    "classification": [
+        {
+            "classification": "BASIC_TECHNICAL_SKILLS"
+        }
+    ],
+    "mixins": {
+        "collectors_info": [
+            {
+                "usd": 30.99,
+                "eur": 23.99
+            }
+        ]
+    },
+    "metadata": {
+        "mixins": {
+            "collectors_info": {
+                "type": "array",
+                "title": "xxx",
+                "items": {
+                    "type": "object",
+                    "title": "detail",
+                    "properties": {
+                        "$ref": "https://api.yaas.io/patterns/v1/schema-amount.json"
+                    }
+                }
+            }
+        }
+    },
+    "status": "IN_PROCESS",
+    "dueAt": "2015-06-30T23:59:59.999+0000",
+    "customerId": "C0750876755",
+    "productId": "54e60e07d26ec374ee8e769f",
+    "shortDescription": "Request for regular maintenance",
+    "assignedTo": "mandy@hybristest.com",
+    "createdBy": "mandy@hybristest.com",
+    "modifiedBy": "mandy@hybristest.com"
+}
